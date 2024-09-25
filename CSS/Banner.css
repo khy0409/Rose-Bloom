@@ -17,13 +17,13 @@ li {
 
 .slides-container {
     display: flex;
-    width: 400vw;
-    transition: transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out; /* 슬라이드 전환 시 부드럽게 */
+    width: 400%; /* 슬라이드의 총 너비 (4개의 슬라이드) */
 }
 
 .slide {
-    width: 100vw;
-    flex: 0 0 auto;
+    width: 100vw; /* 각 슬라이드의 너비를 뷰포트 너비로 설정 */
+    flex-shrink: 0; /* 슬라이드가 축소되지 않도록 설정 */
 }
 
 .slide img {
