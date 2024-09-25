@@ -12,16 +12,16 @@
 	<div class="imageSlider">
     	<div class="slides-container">
         	<div class="slide">
-            	<img src="../IMG/Banner1.gif" alt="Banner 1">
+            	<img src="../IMG/Banner/Banner1.gif" alt="Banner 1">
 	        </div>
 	        <div class="slide">
-	            <img src="../IMG/Banner2.gif" alt="Banner 2">
+	            <img src="../IMG/Banner/Banner2.gif" alt="Banner 2">
 	        </div>
 	        <div class="slide">
-	            <img src="../IMG/Banner3.gif" alt="Banner 3">
+	            <img src="../IMG/Banner/Banner3.gif" alt="Banner 3">
 	        </div>
 	        <div class="slide">
-	            <img src="../IMG/Banner4.gif" alt="Banner 4">
+	            <img src="../IMG/Banner/Banner4.gif" alt="Banner 4">
 	        </div>
 	    </div>
 	</div>
