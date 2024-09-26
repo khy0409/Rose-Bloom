@@ -16,6 +16,7 @@
 3. 기타
  - CSS 들여쓰기 : 계층적
  - File Name : Pascal Case
+ - Script File : body의 하단에 link, 상단에 link 시 이유 작성
  
 4. 예시
  - 변수명
