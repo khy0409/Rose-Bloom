@@ -8,31 +8,31 @@
     <link rel="stylesheet" href="../CSS/Banner.css">
 </head>
 <body>
-<div id="SlideAll">
-	<div class="imageSlider">
-    	<div class="slides-container">
-        	<div class="slide">
-            	<img src="../IMG/Banner/Banner1.gif" alt="Banner 1">
-	        </div>
-	        <div class="slide">
-	            <img src="../IMG/Banner/Banner2.gif" alt="Banner 2">
-	        </div>
-	        <div class="slide">
-	            <img src="../IMG/Banner/Banner3.gif" alt="Banner 3">
-	        </div>
-	        <div class="slide">
-	            <img src="../IMG/Banner/Banner4.gif" alt="Banner 4">
-	        </div>
-	    </div>
-	</div>
-	
-	<div class="button_container"> 
-	    <button id="btn1"></button>
-	    <button id="btn2"></button>
-	    <button id="btn3"></button>
-	    <button id="btn4"></button>
-	</div>
-</div>
+	<section id="slide-all">
+		<section class="image-slider">
+	    	<div class="slides-container">
+	        	<div class="slide">
+	            	<img src="../IMG/Banner/Banner1.gif" alt="Banner 1">
+		        </div>
+		        <div class="slide">
+		            <img src="../IMG/Banner/Banner2.gif" alt="Banner 2">
+		        </div>
+		        <div class="slide">
+		            <img src="../IMG/Banner/Banner3.gif" alt="Banner 3">
+		        </div>
+		        <div class="slide">
+		            <img src="../IMG/Banner/Banner4.gif" alt="Banner 4">
+		        </div>
+		    </div>
+		</section>
+		
+		<section class="button-container"> 
+		    <button id="btn1"></button>
+		    <button id="btn2"></button>
+		    <button id="btn3"></button>
+		    <button id="btn4"></button>
+		</section>
+	</section>
 <script src="../JS/Banner.js"></script>
 </body>
 </html>
