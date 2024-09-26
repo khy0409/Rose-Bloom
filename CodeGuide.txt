@@ -1,0 +1,33 @@
+1. 변수명 규칙
+ - .JSP, .Java의 변수명 : Camel Case
+ - .CSS의 Class or Id : Kebab Case
+ - .JS의 변수명 : Camel Case
+ - Java Method Name : Camel Case
+
+2. 주석
+ - 위치 
+   1) 한 줄 주석 : 코드와 같은 줄에 작성
+   2) 메서드 주석 : 메서드의 상단에 작성
+   3) 주석 혹은 코드가 긴 경우 : 주석을 코드 블록의 상단에 작성
+ - 메서드 주석 : 메소드의 목적
+ - 논리 주석 : 로직의 의도
+ - Exception : 예외 처리 사항, 이유
+
+3. 기타
+ - CSS 들여쓰기 : 계층적
+ - File Name : Pascal Case
+ 
+4. 예시
+ - 변수명
+   1) .JSP, .JAVA : userName
+   2) .CSS : user-name
+   3) .JS : userName
+   4) Method Name : userName
+ - 주석
+   1) case1 : String name = "상일미디어고"; //학교 이름
+   2) case2 : //학교별 이름을 가져오는 메서드
+   			  public String getName() { ... }
+   3) case3 : //Parameter를 int로 변환
+   			  int integer = Integer.parseInt(request.getParameter("integer");
+ - 기타
+   1) File Name : UserInfo.java
