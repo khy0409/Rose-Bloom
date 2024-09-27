@@ -17,17 +17,19 @@ String Link = (Seller != null) ? "SellerMyPage.jsp" : "BuyerMyPage.jsp";
 </head>
 <body>
 	<section class="site-header">
-		<div class="left-section">
+		<section class="left-menu">
 			<h2><a href="Index.jsp">Rose Bloom</a></h2>
-			<nav class="category">
-				<a href="Category.jsp?Category=Outer">Outer</a>
-				<a href="Category.jsp?Category=Top">Top</a>
-				<a href="Category.jsp?Category=Bottom">Bottom</a>
-				<a href="Category.jsp?Category=Set">Set</a>
-				<a href="Category.jsp?Category=Shoes">Shoes</a>
+			<nav class="category-nav">
+				<!-- #으로 넘어가는 문제 return false 추가 -->
+			    <a href="#" onclick="submitForm('Category.jsp', 'category', 'Outer'); return false;">Outer</a>
+			    <a href="#" onclick="submitForm('Category.jsp', 'category', 'Top'); return false;">Top</a>
+			    <a href="#" onclick="submitForm('Category.jsp', 'category', 'Bottom'); return false;">Bottom</a>
+			    <a href="#" onclick="submitForm('Category.jsp', 'category', 'Set'); return false;">Set</a>
+			    <a href="#" onclick="submitForm('Category.jsp', 'category', 'Shoes'); return false;">Shoes</a>
 			</nav>
-		</div>
-		<div class="right-section">
+
+		</section>
+		<section class="right-menu">
 			<nav class="sub-nav">
 				<ul>
 					<li><a href="SignUp.jsp">회원가입</a></li>
@@ -42,11 +44,11 @@ String Link = (Seller != null) ? "SellerMyPage.jsp" : "BuyerMyPage.jsp";
 				</ul>
 			</nav>
 			<ul class="header-icons">
-				<li><a href="<%= Link %>"><img src="../IMG/icon_user.png" alt="My page"></a></li>
-				<li><a href="Wish.jsp"><img src="../IMG/icon_heart.png" alt="Wish"></a></li>
-				<li><a href="Cart.jsp"><img src="../IMG/icon_cart.png" alt="Cart"></a></li>
+				<li><a href="<%= Link %>"><img src="../IMG/Icon/icon_user.png" alt="My page"></a></li>
+				<li><a href="Wish.jsp"><img src="../IMG/Icon/icon_heart.png" alt="Wish"></a></li>
+				<li><a href="Cart.jsp"><img src="../IMG/Icon/icon_cart.png" alt="Cart"></a></li>
 				<li>
-				    <a href="#" id="searchIcon"><img src="../IMG/icon_search.png" alt="Search" id="search-icon"></a>
+				    <a href="#" id="searchIcon"><img src="../IMG/Icon/icon_search.png" alt="Search" id="search-icon"></a>
 				    <div id="searchBox" class="search-box hidden">
 				        <form id="searchForm" action="Search.jsp" method="get">
 			                <input type="text" id="searchInput" name="keyword" placeholder="Search...">
@@ -54,8 +56,9 @@ String Link = (Seller != null) ? "SellerMyPage.jsp" : "BuyerMyPage.jsp";
 			        </div>
 			    </li>
 			</ul>
-		</div>
+		</section>
 	</section>
 </body>
+<script src="../JS/Global.js"></script>
 <script src="../JS/Header.js"></script>
 </html>
