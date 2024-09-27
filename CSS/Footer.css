@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 .footer {
 	padding-left: 3%;
 	padding-bottom: 4%;
@@ -7,32 +8,27 @@
     align-items: center;
 }
 
-#Infor_Basic {
+#info-basic {
 	width: 50%;
 }
 
-#Infor_Basic> h2 {
+#info-basic > h2 {
 	padding-top: 30px;
 	font-size: 40px;
 	font-weight: 400;
 	padding-bottom: 20px;
 }
 
-#Infor_Basic > p {
+#info-basic > p {
 	padding-top: 20px;
 }
 
-#Infor_Basic> ul> li {
+#info-basic li {
 	margin-bottom: 3px;
 	color: #4b3621;
 }
 
-#Infor_Basic> ul> li> .Main {
-	font-size: 16px;
-	color: #4b3621;
-}
-
-#Info_Sub {
+.info-sub {
 	display: flex;
 	justify-content: flex-end;
 	gap: 20%;
@@ -40,16 +36,21 @@
 	width: 50%;
 }
 
-.Sub_Menu> h4 {
+.sub-menu> h4 {
 	margin-bottom: 5px;
 	color: #4b3621;
 }
 
-.Sub_Menu> ul> li> strong, .Sub_Menu> ul> li> p {
+.sub-menu strong, .sub-menu p {
 	margin-bottom: 3px;
 	color: #4b3621;
 }
 
-li> strong, li> p{
+.info-title {
+	font-size: 16px;
+	color: #4b3621;
+}
+
+strong, p{
 	display: inline-block;
 }

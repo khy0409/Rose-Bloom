@@ -11,13 +11,13 @@
 	margin-bottom: 35px;
 }
 
-.newProducts {
+.new-products {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 40px;
 	width: 95%;
 }
 
-.newProduct {
+.new-product {
 	margin-bottom: 10px;
 }

@@ -26,7 +26,3 @@ a {
 .select {
 	user-select: text;
 }
-
-.noBr {
-	display: inline-block;
-}
